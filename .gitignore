@@ -1,6 +1,33 @@
-composer.phar
-/vendor/
+/logs
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/docker/log/*
+/docker/etc/nginx/conf.d/default.conf
+/public_html
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+.env*
+!.env-example
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml*
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+/.vscode
+/.idea
+
+!/web/css
+!/web/js
+/web/error_log
